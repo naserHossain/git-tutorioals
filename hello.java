@@ -1,6 +1,7 @@
 public class Hello {
     public static void main(String[] args){
         System.out.println("Visual studio code is awesome")\
+
         greeting('This is from branch B')
     }
 
@@ -10,5 +11,12 @@ public class Hello {
 
     public static int sqr(int x){
         return x * x
+
+        greeting("hello I am from branch A")
+    }
+
+    public static void greeting(String name){
+        System.out.println("Hello branch A " + name)
+
     }
 }
